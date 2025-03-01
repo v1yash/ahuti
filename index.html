@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Ahuti home</title>
+    <style>
+        h4,.h2
+        {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.4;
+            letter-spacing: 0.1rem;
+            text-align: center;
+            color: rgb(5, 93, 156);
+        }
+        .maindiv
+        {
+            width: 80%;
+            height: 50%;
+            background-image: url('h1.png');
+            position: absolute;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%,-0%);
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px rgb(184, 28, 28);
+            animation: slider 15s infinite linear;
+
+        }
+        @keyframes slider{
+            10%{
+                background-image: url('h1.png');
+                background-size: 100% 100%;
+            }
+            30%{
+                background-image: url('bus.png');
+                background-size: 100% 100%;
+            }
+            50%{
+                background-image: url('ce.png');
+                background-size: 100% 100%;
+            }
+            70%{
+                background-image: url('intro.png');
+                background-size: 100% 100%;
+            }  
+            90%{
+                background-image: url('on.png');
+                background-size: 100% 100%;
+            }
+          
+        }
+        </style>
+<link rel="stylesheet" type="text/css" href="header.css" >
+
+</head>
+<body bgcolor="#123456">
+    <header>        
+        <h2> Aahuti Technocrafts</h2>
+        <div class="nav">
+            <a href="home.html">HOME</a>
+            <a href="plant.html">Plant and Machinery</a>
+            <a href="product.html">Product Portfolio</a>
+            <a href="http://localhost/yash/Contact.php">Contact Us</a>
+            <a href="http://localhost/yash/login.php">LOGIN</a>
+            <!-- <a href="signup.php">signup</a> -->
+        </div>
+        <img src="logo.png" alt="" height="100%" width="7%">
+    </header><br>
+    
+    <form >
+        <h2  class="h2" color="#678456">Welcome to Aahuti Technocrafts
+            <br></h2>
+            <h4> Where Technology Meets Fabrication 
+                Craftsmanship</h4>
+                <img src="ing.jpg" class="bg" alt="bg"height="50%" width="100%">
+    </form>
+    <div class="maindiv">
+
+    </div>
+
+    <footer>
+        <h2>reserved for Ahuti Tec.</h2>
+        <p class="p">coder and designer <br>YASH</p>
+        <img src="logo.png" alt="" height="100%" width="7%">
+    </footer>
+</body>
+</html>
